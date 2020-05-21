@@ -38,8 +38,8 @@ def print_mean(df, met):
     print("Mean of {}: {}".format(met, result))
 
 
-def task_4(df):
-    merged_df = df.sample(500000, replace=True)
+def task_4(merged_df):
+    #  merged_df = df.sample(500000, replace=True)
     print_mean(merged_df, 'Meter1')
     print_mean(merged_df, 'Meter2')
     print_mean(merged_df, 'Meter3')

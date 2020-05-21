@@ -36,11 +36,11 @@ def print_met(arr, meter):
 
 
 def task_4(arr):
-    rnd_row_index = np.random.choice(np.arange(0, len(arr)), 500000, replace=True)
-    print_met(arr[rnd_row_index], 'Meter1')
-    print_met(arr[rnd_row_index], 'Meter2')
-    print_met(arr[rnd_row_index], 'Meter3')
-    return arr[rnd_row_index]
+    #  rnd_row_index = np.random.choice(np.arange(0, len(arr)), 500000, replace=True)
+    print_met(arr, 'Meter1')
+    print_met(arr, 'Meter2')
+    print_met(arr, 'Meter3')
+    return arr
 
 
 def task_5(arr):
